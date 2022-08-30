@@ -1,0 +1,59 @@
+
+h1 {color: blue;
+font-size: 50px;
+font-weight: bold;
+font-style: italic;
+margin: 35px;
+line-height: 1.5;
+}
+body {line-height: 1.5;
+	background-color:gainsboro;}
+min-width: 1170px;
+.conteiner 
+{
+}
+.center {
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+print.css
+{
+	 margin: 0;
+    color: black;
+    background-color: #fff;
+	h1 {color: black;
+	font-weight: thin;}
+}
+.front,
+.back 
+{
+	width:100%; 
+height:100%;
+overflow:hidden;
+position: absolute;
+}
+.front img{
+	height: 100%;
+}
+.front {transform:perspective(600px) rotate(0deg);}
+.back {transform:perspective(600px) rotate(360deg);}
+	
+.wrapper
+{
+min-height: 100vh;
+width:100%;
+background-color:gainsboro;
+background-image:url(/fone.jpg);
+}
+
+
+h3 { color: pink;
+font-weight: bold; 
+padding: 45px}
+
+.photo{
+	border:2px solid red; width:200px;
+}
+
